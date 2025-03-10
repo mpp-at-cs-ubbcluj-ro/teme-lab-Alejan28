@@ -1,0 +1,81 @@
+10 Mar 2025 13:02:39,683 INFO  Repositories.CarsDBRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/An II Sem II/MPP/cars.db} 
+10 Mar 2025 13:02:39,696 TRACE Repositories.CarsDBRepository 66 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 13:02:39,697 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 13:02:39,697 TRACE Utils.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 13:02:39,697 INFO  Utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/An II Sem II/MPP/cars.db
+10 Mar 2025 13:02:39,698 INFO  Utils.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 13:02:39,698 INFO  Utils.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 13:02:39,867 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29215f06)
+10 Mar 2025 13:02:39,883 TRACE Repositories.CarsDBRepository 73 add - Saved 1 instances
+10 Mar 2025 13:02:39,883 TRACE Repositories.CarsDBRepository 79 add - Exit
+10 Mar 2025 13:02:39,884 TRACE Repositories.CarsDBRepository 90 findAll - Enter
+10 Mar 2025 13:02:39,884 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 13:02:39,884 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29215f06)
+10 Mar 2025 13:02:39,886 TRACE Repositories.CarsDBRepository 110 findAll - Exit
+10 Mar 2025 13:02:39,887 TRACE Repositories.CarsDBRepository 31 findByManufacturer - Enter
+10 Mar 2025 13:02:39,887 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 13:02:39,888 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@29215f06)
+10 Mar 2025 13:02:39,888 TRACE Repositories.CarsDBRepository 52 findByManufacturer - Exit
+10 Mar 2025 18:00:29,045 INFO  Repositories.CarsDBRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/An II Sem II/MPP/cars.db} 
+10 Mar 2025 18:00:29,064 TRACE Repositories.CarsDBRepository 66 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 18:00:29,064 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 18:00:29,064 TRACE Utils.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 18:00:29,067 INFO  Utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/An II Sem II/MPP/cars.db
+10 Mar 2025 18:00:29,067 INFO  Utils.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 18:00:29,067 INFO  Utils.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 18:00:29,459 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+10 Mar 2025 18:00:29,480 TRACE Repositories.CarsDBRepository 73 add - Saved 1 instances
+10 Mar 2025 18:00:29,483 TRACE Repositories.CarsDBRepository 79 add - Exit
+10 Mar 2025 18:00:29,483 TRACE Repositories.CarsDBRepository 90 findAll - Enter
+10 Mar 2025 18:00:29,483 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 18:00:29,483 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+10 Mar 2025 18:00:29,488 TRACE Repositories.CarsDBRepository 110 findAll - Exit
+10 Mar 2025 18:00:29,488 TRACE Repositories.CarsDBRepository 31 findByManufacturer - Enter
+10 Mar 2025 18:00:29,488 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 18:00:29,488 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+10 Mar 2025 18:00:29,488 TRACE Repositories.CarsDBRepository 52 findByManufacturer - Exit
+10 Mar 2025 18:04:42,340 INFO  Repositories.CarsDBRepository 24 <init> - Initializing CarsDBRepository with properties: {} 
+10 Mar 2025 18:04:42,365 TRACE Repositories.CarsDBRepository 66 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 18:04:42,366 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 18:04:42,367 TRACE Utils.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 18:04:42,368 INFO  Utils.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+10 Mar 2025 18:04:42,369 INFO  Utils.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 18:04:42,369 INFO  Utils.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 18:04:42,373 ERROR Utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+10 Mar 2025 18:04:42,375 TRACE Utils.JdbcUtils 57 getConnection - Exit
+10 Mar 2025 19:32:24,908 INFO  Repositories.CarsDBRepository 24 <init> - Initializing CarsDBRepository with properties: {} 
+10 Mar 2025 19:32:24,929 TRACE Repositories.CarsDBRepository 66 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 19:32:24,930 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 19:32:24,930 TRACE Utils.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 19:32:24,931 INFO  Utils.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+10 Mar 2025 19:32:24,932 INFO  Utils.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 19:32:24,932 INFO  Utils.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 19:32:24,935 ERROR Utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+10 Mar 2025 19:32:24,937 TRACE Utils.JdbcUtils 57 getConnection - Exit
+10 Mar 2025 19:33:09,642 INFO  Repositories.CarsDBRepository 24 <init> - Initializing CarsDBRepository with properties: {} 
+10 Mar 2025 19:33:09,670 TRACE Repositories.CarsDBRepository 66 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 19:33:09,671 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 19:33:09,672 TRACE Utils.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 19:33:09,673 INFO  Utils.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+10 Mar 2025 19:33:09,675 INFO  Utils.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 19:33:09,676 INFO  Utils.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 19:33:09,678 ERROR Utils.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+10 Mar 2025 19:33:09,680 TRACE Utils.JdbcUtils 57 getConnection - Exit
+10 Mar 2025 19:33:39,305 INFO  Repositories.CarsDBRepository 24 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:C:/An II Sem II/MPP/cars.db} 
+10 Mar 2025 19:33:39,338 TRACE Repositories.CarsDBRepository 66 add - Enter saving task Id=0 Tesla Model S 2019
+10 Mar 2025 19:33:39,340 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 19:33:39,340 TRACE Utils.JdbcUtils 25 getNewConnection - Enter
+10 Mar 2025 19:33:39,341 INFO  Utils.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:C:/An II Sem II/MPP/cars.db
+10 Mar 2025 19:33:39,341 INFO  Utils.JdbcUtils 31 getNewConnection - user: null
+10 Mar 2025 19:33:39,342 INFO  Utils.JdbcUtils 32 getNewConnection - pass: null
+10 Mar 2025 19:33:39,773 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+10 Mar 2025 19:33:39,806 TRACE Repositories.CarsDBRepository 73 add - Saved 1 instances
+10 Mar 2025 19:33:39,807 TRACE Repositories.CarsDBRepository 79 add - Exit
+10 Mar 2025 19:33:39,807 TRACE Repositories.CarsDBRepository 90 findAll - Enter
+10 Mar 2025 19:33:39,808 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 19:33:39,808 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+10 Mar 2025 19:33:39,815 TRACE Repositories.CarsDBRepository 110 findAll - Exit
+10 Mar 2025 19:33:39,816 TRACE Repositories.CarsDBRepository 31 findByManufacturer - Enter
+10 Mar 2025 19:33:39,816 TRACE Utils.JdbcUtils 48 getConnection - Enter
+10 Mar 2025 19:33:39,817 TRACE Utils.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@59505b48)
+10 Mar 2025 19:33:39,818 TRACE Repositories.CarsDBRepository 52 findByManufacturer - Exit

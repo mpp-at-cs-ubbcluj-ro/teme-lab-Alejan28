@@ -9,5 +9,16 @@
         <module name="Lab1" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="StartGradle" target="23" />
+      <module name="StartGradle.main" target="23" />
+      <module name="StartGradle.test" target="23" />
+      <module name="StartGroovy" target="23" />
+      <module name="StartGroovy.main" target="23" />
+      <module name="StartGroovy.test" target="23" />
+      <module name="trial" target="23" />
+      <module name="trial.main" target="23" />
+      <module name="trial.test" target="23" />
+    </bytecodeTargetLevel>
   </component>
 </project>
